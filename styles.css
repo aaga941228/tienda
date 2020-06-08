@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EAEDED;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contenedor {
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;
+}
+
+main article {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    height: 1200px;
+}
+
+.menu {
+    background-color: #232f3e;
+    padding: 5px 0;
+    margin-bottom: 20px;
+}
+
+.menu .contenedor-botones-menu {
+    display: none;
+    justify-content: space-between;
+}
+
+.menu .contenedor-botones-menu button {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    display: inline-block;
+    cursor: pointer;
+    background: none;
+}
+
+.menu .contenedor-botones-menu button:hover {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.menu .contenedor-botones-menu button .btn-menu-cerrar {
+    display: none;
+}
+
+.menu .contenedor-botones-menu button .btn-menu-cerrar.activo {
+    display: inline-block;
+}
+
+.menu .contenedor-enlaces-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .contenedor-enlaces-nav a {
+    color: #ccc;
+    border: 1px solid transparent;
+    padding: 7px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.menu .contenedor-enlaces-nav a:hover {
+    border: 1px solid rgba(255, 255, 255, 0.5); 
+}
+
+.menu .btn-departamentos {
+    color: #fff;
+    padding: 7px;
+    border-radius: 3px;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid transparent;
+    font-size: 12px;
+    cursor: default;
+}
+
+.menu .btn-departamentos:hover {
+   border: 1px solid rgba(255, 255, 255, 0.5); 
+}
+
+.menu .btn-departamentos span {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu .btn-departamentos i {
+    margin-left: 20px;
+    position: relative;
+    bottom: 3px;
+}
