@@ -1,5 +1,6 @@
 const btnDepartamentos = document.querySelector('#btn-departamentos')
 const grid = document.querySelector('#grid')
+const contenedorEnlacesNav = document.querySelector('#menu .contenedor-enlaces-nav')
 const esDispositivoMovil = () =>  window.innerWidth <= 800
 
 btnDepartamentos.addEventListener('mouseover', () => {
@@ -23,4 +24,15 @@ document.querySelectorAll('#menu .categorias a').forEach(elemento => {
             }
         })
     })
+})
+
+document.querySelector('#btn-menu-barras').addEventListener('click', evento => {
+    evento.preventDefault()
+    if(contenedorEnlacesNav.classList.contains('activo')) {
+        contenedorEnlacesNav.classList.remove('activo')
+        document.querySelector('body').style.overflow = 'visible'
+    } else {
+        contenedorEnlacesNav.classList.add('activo')
+        document.querySelector('body').style.overflow = 'hidden'
+    } 
 })
