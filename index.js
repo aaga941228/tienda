@@ -1,3 +1,13 @@
+const contenedorSubcategorias = document.querySelector('#contenedor-subcategorias')
+
+const renderSubcategorias = () => {
+    obtenerSubcategorias().map(elemento => {
+		contenedorSubcategorias.innerHTML += Subcategoria(elemento)
+    })
+}
+
+renderSubcategorias()
+
 const btnDepartamentos = document.getElementById('btn-departamentos'),
 	  btnCerrarMenu = document.getElementById('btn-menu-cerrar'),
 	  grid = document.getElementById('grid'),
