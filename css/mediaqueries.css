@@ -1,10 +1,26 @@
-@media screen and (max-width: 1000px) {
-	.menu .contenedor-enlaces-nav {
-		padding: 0 10px;
+@media screen and (max-width: 600px) {
+	main article h1 {
+		font-size: 1.5rem;
 	}
 
-	.menu .contenedor {
-		width: 100%;
+	main article > h2,
+	.productos-por-categorias > h2 {
+		font-size: 1.2rem;
+	}
+
+	.contenedor-productos {
+		margin: 10px 0;
+	}
+
+	.productos-por-categorias .contenedor-tarjetas {
+		margin: 0;
+	}
+	
+	.producto-tarjeta .producto-contenido .producto-nombre 
+	.producto-tarjeta .producto-contenido .producto-descripcion,
+	.producto-tarjeta .producto-contenido .producto-precio,
+	.producto-tarjeta .producto-contenido .carro-comprar {
+		font-size: 0.8rem;
 	}
 }
 
@@ -120,5 +136,15 @@
 	.grid .contenedor-subcategorias .galeria-subcategoria a {
 		width: 25%;
 		height: 100%;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.menu .contenedor-enlaces-nav {
+		padding: 0 10px;
+	}
+
+	.menu .contenedor {
+		width: 100%;
 	}
 }

@@ -83,6 +83,7 @@ const listaProductos = [
                 id: 1,
                 nombre: 'Kindle',
                 descripcion: 'kindle ultimo modelo',
+                ruta: 'img/tecnologia-galeria-1.png',
                 precio: {
                     mx: 3500,
                 }
@@ -91,6 +92,7 @@ const listaProductos = [
                 id: 2,
                 nombre: 'Monitor',
                 descripcion: 'monitor 4k',
+                ruta: 'img/tecnologia-galeria-2.png',
                 precio: {
                     mx: 3000,
                 }
@@ -99,14 +101,16 @@ const listaProductos = [
                 id: 3,
                 nombre: 'Laptop',
                 descripcion: 'laptop color blanca mediana',
+                ruta: 'img/tecnologia-galeria-3.png',
                 precio: {
                     mx: 12000,
                 }
             },
             {
                 id: 4,
-                nombre: 'Laptop',
+                nombre: 'Tablet',
                 descripcion: 'tablet color negra',
+                ruta: 'img/tecnologia-galeria-4.png',
                 precio: {
                     mx: 10000,
                 }
@@ -120,32 +124,36 @@ const listaProductos = [
                 id: 1,
                 nombre: 'Coleccion',
                 descripcion: 'coleccion de libros usados de pasta dura',
+                ruta: 'img/libros-galeria-1.png',
                 precio: {
-                    mx: 10000,
+                    mx: 1500,
                 }
             },
             {
                 id: 2,
                 nombre: 'Libro',
                 descripcion: 'libro de pasta dura nuevo',
+                ruta: 'img/libros-galeria-2.png',
                 precio: {
-                    mx: 0,
+                    mx: 350,
                 }
             },
             {
                 id: 3,
                 nombre: 'Coleccion',
                 descripcion: 'coleccion de libros usados de pasta dura',
+                ruta: 'img/libros-galeria-3.png',
                 precio: {
-                    mx: 10000,
+                    mx: 1800,
                 }
             },
             {
                 id: 4,
                 nombre: 'Coleccion',
                 descripcion: 'coleccion de libros usados de pasta dura',
+                ruta: 'img/libros-galeria-4.png',
                 precio: {
-                    mx: 10000,
+                    mx: 1000,
                 }
             },
         ]
@@ -157,6 +165,7 @@ const listaProductos = [
                 id: 1,
                 nombre: 'Conjunto',
                 descripcion: 'conjuto de blusa, pantalones y cinturon',
+                ruta: 'img/ropa-galeria-1.png',
                 precio: {
                     mx: 3000,
                 }
@@ -165,6 +174,7 @@ const listaProductos = [
                 id: 2,
                 nombre: 'Reloj',
                 descripcion: 'reloj marca tisot',
+                ruta: 'img/ropa-galeria-2.png',
                 precio: {
                     mx: 45000,
                 }
@@ -173,6 +183,7 @@ const listaProductos = [
                 id: 3,
                 nombre: 'Sombrero',
                 descripcion: 'sombrero negro',
+                ruta: 'img/ropa-galeria-3.png',
                 precio: {
                     mx: 450,
                 }
@@ -181,6 +192,7 @@ const listaProductos = [
                 id: 4,
                 nombre: 'Tennis',
                 descripcion: 'tennis marca converse',
+                ruta: 'img/ropa-galeria-4.png',
                 precio: {
                     mx: 250,
                 }
@@ -194,6 +206,7 @@ const listaProductos = [
                 id: 1,
                 nombre: 'Licuadora',
                 descripcion: 'licuadora para jugos',
+                ruta: 'img/hogar-galeria-1.png',
                 precio: {
                     mx: 20000,
                 }
@@ -202,6 +215,7 @@ const listaProductos = [
                 id: 2,
                 nombre: 'Sofa',
                 descripcion: 'sofa blanco',
+                ruta: 'img/hogar-galeria-2.png',
                 precio: {
                     mx: 8000,
                 }
@@ -210,6 +224,7 @@ const listaProductos = [
                 id: 3,
                 nombre: 'Sofa',
                 descripcion: 'sofa negro',
+                ruta: 'img/hogar-galeria-3.png',
                 precio: {
                     mx: 10000,
                 }
@@ -218,6 +233,7 @@ const listaProductos = [
                 id: 4,
                 nombre: 'Silla',
                 descripcion: 'Silla color blanco',
+                ruta: 'img/hogar-galeria-4.png',
                 precio: {
                     mx: 450,
                 }
@@ -231,6 +247,7 @@ const listaProductos = [
                 id: 1,
                 nombre: 'Jugetes',
                 descripcion: 'coleccion de jugetes',
+                ruta: 'img/juegos-galeria-1.png',
                 precio: {
                     mx: 2500,
                 }
@@ -239,6 +256,7 @@ const listaProductos = [
                 id: 2,
                 nombre: 'Peluche',
                 descripcion: 'oso de peluche',
+                ruta: 'img/juegos-galeria-2.png',
                 precio: {
                     mx: 200,
                 }
@@ -247,6 +265,7 @@ const listaProductos = [
                 id: 3,
                 nombre: 'Robot',
                 descripcion: 'robot de juegete',
+                ruta: 'img/juegos-galeria-3.png',
                 precio: {
                     mx: 300,
                 }
@@ -255,6 +274,7 @@ const listaProductos = [
                 id: 4,
                 nombre: 'Tren',
                 descripcion: 'tren con vias de madera',
+                ruta: 'img/juegos-galeria-4.png',
                 precio: {
                     mx: 1450,
                 }
@@ -268,6 +288,7 @@ const listaProductos = [
                 id: 1,
                 nombre: 'Maquillaje',
                 descripcion: 'conjunto de maquillaje',
+                ruta: 'img/belleza-galeria-1.png',
                 precio: {
                     mx: 1200,
                 }
@@ -276,6 +297,7 @@ const listaProductos = [
                 id: 2,
                 nombre: 'Jugo',
                 descripcion: 'jugo de naranja en caja',
+                ruta: 'img/belleza-galeria-2.png',
                 precio: {
                     mx: 100,
                 }
@@ -284,6 +306,7 @@ const listaProductos = [
                 id: 3,
                 nombre: 'Cepillos',
                 descripcion: 'cepillos para maquillar',
+                ruta: 'img/belleza-galeria-3.png',
                 precio: {
                     mx: 400,
                 }
@@ -292,6 +315,7 @@ const listaProductos = [
                 id: 4,
                 nombre: 'Locion',
                 descripcion: 'locion para cuello',
+                ruta: 'img/belleza-galeria-4.png',
                 precio: {
                     mx: 450,
                 }
@@ -302,3 +326,4 @@ const listaProductos = [
 
 const obtenerSubcategorias = () => listaSubcategorias
 const obtenerProductos = () => listaProductos
+const obtenerProductosPorIdSubcategoria = (id) => listaProductos.filter((elemento) => elemento.subcategoriaId === id)

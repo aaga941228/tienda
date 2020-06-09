@@ -1,12 +1,20 @@
 const contenedorSubcategorias = document.querySelector('#contenedor-subcategorias')
+const contenedorProductos = document.querySelector('#contenedor-productos')
 
-const renderSubcategorias = () => {
+const renderizarSubcategorias = () => {
     obtenerSubcategorias().map(elemento => {
 		contenedorSubcategorias.innerHTML += Subcategoria(elemento)
     })
 }
 
-renderSubcategorias()
+const renderizarProductos = () => {
+	obtenerSubcategorias().map((elemento) => {
+		contenedorProductos.innerHTML += ProductosCategoria(elemento)
+	})
+}
+
+renderizarSubcategorias()
+renderizarProductos()
 
 const btnDepartamentos = document.getElementById('btn-departamentos'),
 	  btnCerrarMenu = document.getElementById('btn-menu-cerrar'),
