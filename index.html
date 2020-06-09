@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/4889994b4a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
     <title>Mi tienda en linea</title>
 </head>
 <body>
@@ -22,7 +23,7 @@
             <div class="enlaces">
                 <a href="#">Cuenta</a>
                 <a href="#">Promociones</a>
-                <a href="#">Mesa de regalos</a>
+                <a href="#">Mis compras</a>
                 <a href="#">Ayuda</a>
             </div>
         </div>
@@ -39,7 +40,6 @@
 					<a href="#" data-categoria="hogar-y-cocina">Hogar y Cocina <i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="juegos-y-jugetes">Juegos y Juguetes <i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="salud-y-belleza">Salud y Belleza <i class="fas fa-angle-right"></i></a>
-					<a href="#" data-categoria="alimentos-y-bebidas">Alimentos y Bebidas <i class="fas fa-angle-right"></i></a>
 				</div>
 
                 <div class="contenedor-subcategorias" id="contenedor-subcategorias">
@@ -48,8 +48,171 @@
         </div>
     </nav>
 
+    <header class="contenedor header">
+        <img src="img/header.png" alt="header" class="img-header">
+    </header>
+
     <main class="contenedor">
-        <article></article>
+        <article>
+            <h1>Bienvenido a <span>tuTiendaEnlinea</span></h1>
+            <h2>Encuentra todo lo que necesitas en un solo lugar</h2>
+            <div class="productos-contenedor">
+                <div class="productos-por-categorias">
+                    <h2>Tecnologia y Computadoras</h2>
+
+                    <div class="producto-tarjeta">
+                        <img src="img/tecnologia-galeria-1.png" alt="">
+                        <div class="producto-contenido">
+                            <p class="producto-nombre">Computadora</p>
+                            <p class="producto-descripcion">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, fugit. Voluptatibus reiciendis voluptatum.
+                            </p>
+                            <p class="producto-precio">
+                                $25,000.00 MX
+                            </p>
+                            <p class="producto-precio">
+                                $1,000.00 US
+                            </p>
+                            <span class="carro-comprar">Agregar al carro <i class="fas fa-shopping-cart"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="producto-tarjeta">
+                        <img src="img/tecnologia-galeria-2.png" alt="">
+                        <div class="producto-contenido">
+                            <p class="producto-nombre">Computadora</p>
+                            <p class="producto-descripcion">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, fugit. Voluptatibus reiciendis voluptatum.
+                            </p>
+                            <p class="producto-precio">
+                                $25,000.00 MX
+                            </p>
+                            <p class="producto-precio">
+                                $1,000.00 US
+                            </p>
+                            <span class="carro-comprar">Agregar al carro <i class="fas fa-shopping-cart"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="productos-por-categorias">
+                    <h2>Libros</h2>
+
+                    <div class="producto-tarjeta">
+                        <img src="img/libros-galeria-1.png" alt="">
+                        <div class="producto-contenido">
+                            <p class="producto-nombre">Libro</p>
+                            <p class="producto-descripcion">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, fugit. Voluptatibus reiciendis voluptatum.
+                            </p>
+                            <p class="producto-precio">
+                                $250.00 MX
+                            </p>
+                            <p class="producto-precio">
+                                $10.00 US
+                            </p>
+                            <span class="carro-comprar">Agregar al carro <i class="fas fa-shopping-cart"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="producto-tarjeta">
+                        <img src="img/libros-galeria-2.png" alt="">
+                        <div class="producto-contenido">
+                            <p class="producto-nombre">Libro</p>
+                            <p class="producto-descripcion">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, fugit. Voluptatibus reiciendis voluptatum.
+                            </p>
+                            <p class="producto-precio">
+                                $250.00 MX
+                            </p>
+                            <p class="producto-precio">
+                                $10.00 US
+                            </p>
+                            <span class="carro-comprar">Agregar al carro <i class="fas fa-shopping-cart"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="productos-por-categorias">
+                    <h2>Tecnologia y Computadoras</h2>
+
+                    <div class="producto-tarjeta">
+                        <img src="img/tecnologia-galeria-1.png" alt="">
+                        <div class="producto-contenido">
+                            <p class="producto-nombre">Computadora</p>
+                            <p class="producto-descripcion">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, fugit. Voluptatibus reiciendis voluptatum.
+                            </p>
+                            <p class="producto-precio">
+                                $25,000.00 MX
+                            </p>
+                            <p class="producto-precio">
+                                $1,000.00 US
+                            </p>
+                            <span class="carro-comprar">Agregar al carro <i class="fas fa-shopping-cart"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="producto-tarjeta">
+                        <img src="img/tecnologia-galeria-2.png" alt="">
+                        <div class="producto-contenido">
+                            <p class="producto-nombre">Computadora</p>
+                            <p class="producto-descripcion">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, fugit. Voluptatibus reiciendis voluptatum.
+                            </p>
+                            <p class="producto-precio">
+                                $25,000.00 MX
+                            </p>
+                            <p class="producto-precio">
+                                $1,000.00 US
+                            </p>
+                            <span class="carro-comprar">Agregar al carro <i class="fas fa-shopping-cart"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="productos-por-categorias">
+                    <h2>Tecnologia y Computadoras</h2>
+
+                    <div class="producto-tarjeta">
+                        <img src="img/tecnologia-galeria-1.png" alt="">
+                        <div class="producto-contenido">
+                            <p class="producto-nombre">Computadora</p>
+                            <p class="producto-descripcion">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, fugit. Voluptatibus reiciendis voluptatum.
+                            </p>
+                            <p class="producto-precio">
+                                $25,000.00 MX
+                            </p>
+                            <p class="producto-precio">
+                                $1,000.00 US
+                            </p>
+                            <span class="carro-comprar">Agregar al carro <i class="fas fa-shopping-cart"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="producto-tarjeta">
+                        <img src="img/tecnologia-galeria-2.png" alt="">
+                        <div class="producto-contenido">
+                            <p class="producto-nombre">Computadora</p>
+                            <p class="producto-descripcion">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, fugit. Voluptatibus reiciendis voluptatum.
+                            </p>
+                            <p class="producto-precio">
+                                $25,000.00 MX
+                            </p>
+                            <p class="producto-precio">
+                                $1,000.00 US
+                            </p>
+                            <span class="carro-comprar">Agregar al carro <i class="fas fa-shopping-cart"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </article>
     </main>
 	
 	<script src="database.js" defer></script>
